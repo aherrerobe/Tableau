@@ -14,7 +14,7 @@ TS_CONFIG = {
 }
 
 
-conn = TableauServerConnection(config_json=TS_CONFIG, env='test_env')
+conn = TableauServerConnection(config_json=TS_CONFIG, env='my_env')
 conn.sign_in()
 
 #  uncomment the two lines of code below to output details of your available Tableau Server projects
